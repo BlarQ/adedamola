@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <div className='px-5 sm:px-28 py-5 sm:py-10 flex items-center justify-between'>
         <div className='flex items-center justify-start space-x-2 sm:space-x-5'>
-            <Image className='w-10' src='/mylogo.svg' alt='Logo' title='Logo' width={50} height={50} />
+            <Image className='w-7 sm:w-10' src='/mylogo.svg' alt='Logo' title='Logo' width={50} height={50} />
             <Link href='/' className='text-2xl font-bold text-[#332932]'>Adedamola</Link>
         </div>
 
