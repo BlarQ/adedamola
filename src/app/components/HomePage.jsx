@@ -1,7 +1,9 @@
+'use client'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { IoLogoGithub, IoLogoLinkedin, IoMail } from 'react-icons/io5'
+import { motion } from 'framer-motion'
 
 export default function HomePage() {
     return (
@@ -9,10 +11,12 @@ export default function HomePage() {
             <div className='flex flex-col-reverse sm:relative sm:w-1/2 sm:px-20'>
 
                 <div className='-mt-7 sm:mt-0 backdrop-blur-[.07rem] sm:backdrop-blur-none'>
-
-                    <h1 className='text-6xl font-bold text-[#332932] pb-7'>Adedamola<br />Ogunlala<span className='text-[#4AC8A3]'>.</span></h1>
-
-                    <hr className='border-4 w-28 border-[#4AC8A3]' />
+                    <motion.h1
+                     initial={{ x: "-100%" }}
+                     animate={{ x: 0 }}
+                     transition={{ duration: 1.5 }}
+                     className='text-6xl font-bold text-[#332932] pb-7'>Adedamola<br />Ogunlala<span className='text-[#4AC8A3]'>.</span></motion.h1>
+                    <hr className='border-4 w-28 border-[#4AC8A3]' />   
 
                     <div className='py-10 flex justify-start items-center gap-4'>
                         <Link href='/'>
@@ -27,9 +31,13 @@ export default function HomePage() {
                     </div>
                 </div>
 
-                <div className='sm:absolute mt-[-20%] sm:mt-0 sm:-top-[100%] sm:-right-[30%] w-fit sm:w-max -z-[1]'>
+                <motion.div
+                 initial={{ x: "-100%" }}
+                 animate={{ x: 0 }}
+                 transition={{ duration: 1.0 }}
+                 className='sm:absolute mt-[-20%] sm:mt-0 sm:-top-[100%] sm:-right-[30%] w-fit sm:w-max -z-[1]'>
                     <Image src='/myimage.svg' alt='Adedamola Ogunlala' title='Adedamola Ogunlala' width={500} height={500} />
-                </div>
+                </motion.div>
             </div>
             <div className='sm:w-1/2'>
 
