@@ -11,9 +11,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={`${inter.className} bg-[whitesmoke] scroll-smooth`}>
-        <div>
+    <html lang="en" className="scroll-smooth">
+      <body className={`${inter.className} bg-[whitesmoke]`}>
+        <div className='fixed inset-x-0 z-[10] bg-[whitesmoke] shadow-sm'>
           <Header />
         </div>
 

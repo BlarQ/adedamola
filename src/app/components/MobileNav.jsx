@@ -9,24 +9,24 @@ export default function MobileNav() {
             initial={{ x: "100%" }}
             animate={{ x: 0 }}
             transition={{ duration: 0.2 }}
-     className='absolute top-[10%] left-0 w-[100vw] rounded-bl-[80%] bg-[#4ac8a3] p-10'>
+     className='absolute top-[100%] left-0 w-[100vw] rounded-bl-[80%] bg-[#4ac8a3] p-10'>
         <Image src='/mylogo.svg' alt='Logo' width={20} height={20}/>
         <div>
             <ul className='flex flex-col space-y-5 items-end justify-end'>
                 <li>
-                    <Link href='/' className='text-base font-bold text-[#332932] hover:text-[#4AC8A3] duration-300 focus:text-[#4AC8A3]'>Home</Link>
+                    <Link href='#home' className='text-base font-bold text-[#332932]'>Home</Link>
                 </li>
                 <li>
-                    <Link href='/About' className='text-base font-bold text-[#332932] hover:text-[#4AC8A3] duration-300 focus:text-[#4AC8A3]'>About</Link>
+                    <Link href='#about' className='text-base font-bold text-[#332932]'>About</Link>
                 </li>
                 <li>
-                    <Link href='/Skills' className='text-base font-bold text-[#332932] hover:text-[#4AC8A3] duration-300 focus:text-[#4AC8A3]'>Skills</Link>
+                    <Link href='/Skills' className='text-base font-bold text-[#332932]'>Skills</Link>
                 </li>
                 <li>
-                    <Link href='/Projects' className='text-base font-bold text-[#332932] hover:text-[#4AC8A3] duration-300 focus:text-[#4AC8A3]'>Projects</Link>
+                    <Link href='/Projects' className='text-base font-bold text-[#332932]'>Projects</Link>
                 </li>
                 <li>
-                    <Link href='/contact' className='text-base font-bold text-[#332932] hover:text-[#4AC8A3] duration-300 focus:text-[#4AC8A3]'>Contact</Link>
+                    <Link href='/contact' className='text-base font-bold text-[#332932]'>Contact</Link>
                 </li>
             </ul>
         </div>

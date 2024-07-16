@@ -4,10 +4,12 @@ import Link from 'next/link'
 import React from 'react'
 import { IoLogoGithub, IoLogoLinkedin, IoMail } from 'react-icons/io5'
 import { motion } from 'framer-motion'
+import { BsFileEarmarkPdf, BsFileEarmarkPdfFill } from "react-icons/bs";
+
 
 export default function HomePage() {
     return (
-        <div className='px-5 sm:px-20 flex flex-col sm:flex-row justify-center items-center sm:min-h-[80vh]'>
+        <div id='home' className='px-5 sm:px-20 pt-[18%] sm:pt-[8%] flex flex-col sm:flex-row justify-center items-center sm:min-h-[100vh]'>
             <div className='flex flex-col-reverse sm:relative sm:w-1/2 sm:px-20'>
 
                 <div className='-mt-7 sm:mt-0 backdrop-blur-[.07rem] sm:backdrop-blur-none'>
@@ -28,13 +30,17 @@ export default function HomePage() {
                     viewport={{ once: false, amount: 0.5 }}
                     className='py-10 flex justify-start items-center gap-4'>
                         <Link href='https://shorturl.at/4Zmcz' target='_blank'>
-                            <IoLogoLinkedin className='text-3xl text-[#332932] hover:text-[#4AC8A3] duration-300 hover:scale-110 hover:animate-bounce' />
+                            <IoLogoLinkedin className='text-3xl text-[#332932] hover:text-[#4AC8A3] duration-300 hover:scale-110' />
                         </Link>
                         <Link href='https://shorturl.at/QaLAT' target='_blank'>
-                            <IoLogoGithub className='text-3xl text-[#332932] hover:text-[#4AC8A3] duration-300 hover:scale-110 hover:animate-bounce' />
+                            <IoLogoGithub className='text-3xl text-[#332932] hover:text-[#4AC8A3] duration-300 hover:scale-110' />
                         </Link>
                         <Link href='mailto:collinsogunlala@gmail.com' target='_blank'>
-                            <IoMail className='text-3xl text-[#332932] hover:text-[#4AC8A3] duration-300 hover:scale-110 hover:animate-bounce' />
+                            <IoMail className='text-3xl text-[#332932] hover:text-[#4AC8A3] duration-300 hover:scale-110' />
+                        </Link>
+                        <Link href='/Adedamola.pdf' type='application/pdf' download target='_blank'>
+                            
+                            <BsFileEarmarkPdfFill className='text-3xl text-[#332932] hover:text-[#4AC8A3] duration-300 hover:scale-110 h-5'/>
                         </Link>
                     </motion.div>
                 </div>
