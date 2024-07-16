@@ -3,6 +3,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState } from 'react'
 import { IoClose, IoMenu } from "react-icons/io5";
+import MobileNav from './MobileNav';
+import { motion } from "framer-motion"
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false)
@@ -45,6 +47,11 @@ export default function Header() {
             <IoMenu onClick={setHamburger} className={`${isOpen ? 'hidden' : 'h-8 w-8 text-[#4ac8a3] animate active:animate-spin duration-300 cursor-pointer'}`} />
             <IoClose onClick={setHamburger} className={`${!isOpen ? 'hidden' : 'h-8 w-8 text-[#4ac8a3] animate active:animate-spin duration-300 cursor-pointer'}`} />
         </div>
+
+        {isOpen && 
+
+            <MobileNav />
+        }
   
     </div>
   )

@@ -15,7 +15,7 @@ export default function HomePage() {
                      initial={{ x: "-100%" }}
                      animate={{ x: 0 }}
                      transition={{ duration: 1.5 }}
-                     viewport={{ once: true, amount: 0.5 }}
+                     viewport={{ once: false, amount: 0.5 }}
                      className='text-6xl font-bold text-[#332932] pb-7'>Adedamola<br />Ogunlala<span className='text-[#4AC8A3]'>.</span>
                     </motion.h1>
 
@@ -25,7 +25,7 @@ export default function HomePage() {
                     initial={{ x: "-100%" }}
                     animate={{ x: 0 }}
                     transition={{ duration: 1.5 }}
-                    viewport={{ once: true, amount: 0.5 }}
+                    viewport={{ once: false, amount: 0.5 }}
                     className='py-10 flex justify-start items-center gap-4'>
                         <Link href='https://shorturl.at/4Zmcz' target='_blank'>
                             <IoLogoLinkedin className='text-3xl text-[#332932] hover:text-[#4AC8A3] duration-300 hover:scale-110 hover:animate-bounce' />
@@ -43,7 +43,7 @@ export default function HomePage() {
                  initial={{ x: "-100%" }}
                  animate={{ x: 0 }}
                  transition={{ duration: 1.0 }}
-                 viewport={{ once: true, amount: 0.5 }}
+                 viewport={{ once: false, amount: 0.5 }}
                  className='sm:absolute mt-[-20%] sm:mt-0 sm:-top-[100%] sm:-right-[30%] w-fit sm:w-max -z-[1]'>
                     <Image src='/myimage.svg' alt='Adedamola Ogunlala' title='Adedamola Ogunlala' width={500} height={500} />
                 </motion.div>
@@ -54,7 +54,7 @@ export default function HomePage() {
                 initial={{ x: "100%" }}
                 animate={{ x: 0 }}
                 transition={{ duration: 1.0 }}
-                viewport={{ once: true, amount: 0.5 }}
+                viewport={{ once: false, amount: 0.5 }}
                 className='sm:pl-[25%] text-[#332932]'>
                     <p className='text-2xl font-semibold border-[#332932] border-b-2 w-fit'>Introduction</p>
                     <h2 className='text-2xl py-4 font-semibold'>
