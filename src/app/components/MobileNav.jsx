@@ -1,15 +1,10 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { motion } from "framer-motion"
 
 export default function MobileNav() {
   return (
-    <motion.div
-            initial={{ x: "100%" }}
-            animate={{ x: 0 }}
-            transition={{ duration: 0.2 }}
-     className='absolute top-[100%] left-0 w-[100vw] rounded-bl-[80%] bg-[#4ac8a3] p-10'>
+    <div className='absolute top-[100%] left-0 w-[100vw] rounded-bl-[80%] bg-[#4ac8a3] p-10'>
         <Image src='/mylogo.svg' alt='Logo' width={20} height={20}/>
         <div>
             <ul className='flex flex-col space-y-5 items-end justify-end'>
@@ -30,6 +25,6 @@ export default function MobileNav() {
                 </li>
             </ul>
         </div>
-    </motion.div>
+    </div>
   )
 }

@@ -9,7 +9,7 @@ import { BsFileEarmarkPdf, BsFileEarmarkPdfFill } from "react-icons/bs";
 
 export default function HomePage() {
     return (
-        <div id='home' className='px-5 sm:px-20 pt-[18%] sm:pt-[8%] flex flex-col sm:flex-row justify-center items-center sm:min-h-[100vh]'>
+        <div id='home' className='px-5 sm:px-20 pt-[18%] sm:pt-[8%] flex flex-col sm:flex-row justify-center items-center sm:min-h-[100vh] overflow-x-hidden'>
             <div className='flex flex-col-reverse sm:relative sm:w-1/2 sm:px-20'>
 
                 <div className='-mt-7 sm:mt-0 backdrop-blur-[.07rem] sm:backdrop-blur-none'>
@@ -28,32 +28,57 @@ export default function HomePage() {
                     viewport={{ once: false, amount: 0.5 }}
                     className='border-4 w-28 border-[#4AC8A3]' /> 
 
-                     
-
-                    <motion.div 
-                    initial={{x: 0, opacity: 0}}
-                    whileInView={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 1.5}}
-                    viewport={{ once: false, amount: 0.5}}
-                    className='py-10 flex justify-start items-center gap-4'>
+                    <div className='py-10 flex justify-start items-center gap-4'>
+                        <motion.div
+                        initial={{ x: "250%", opacity: 0 }}
+                        whileInView={{ x: 0, opacity: 1 }}
+                        transition={{ duration: 1 }}
+                        viewport={{ once: false, amount: 0.5 }}
+                        >
 
                         <Link href='https://shorturl.at/4Zmcz' target='_blank'>
                             <IoLogoLinkedin className='text-3xl text-[#332932] hover:text-[#4AC8A3] duration-300 hover:scale-110' />
                         </Link>
+                        </motion.div>
+
+                        <motion.div 
+                        initial={{ x: "250%", opacity: 0 }}
+                        whileInView={{ x: 0, opacity: 1 }}
+                        transition={{ duration: 1.3 }}
+                        viewport={{ once: false, amount: 0.5 }}
+                        >
 
                         <Link href='https://shorturl.at/QaLAT' target='_blank'>
                             <IoLogoGithub className='text-3xl text-[#332932] hover:text-[#4AC8A3] duration-300 hover:scale-110' />
                         </Link>
+                        </motion.div>
+
+                        <motion.div
+                        initial={{ x: "250%", opacity: 0 }}
+                        whileInView={{ x: 0, opacity: 1 }}
+                        transition={{ duration: 1.6 }}
+                        viewport={{ once: false, amount: 0.5 }}
+                        >
 
                         <Link href='mailto:collinsogunlala@gmail.com' target='_blank'>
                             <IoMail className='text-3xl text-[#332932] hover:text-[#4AC8A3] duration-300 hover:scale-110' />
                         </Link>
+                        </motion.div>
 
+                        <motion.div 
+                        initial={{ x: "250%", opacity: 0 }}
+                        whileInView={{ x: 0, opacity: 1 }}
+                        transition={{ duration: 2 }}
+                        viewport={{ once: false, amount: 0.5 }}
+                        >
+                            
                         <Link href='/Adedamola.pdf' type='application/pdf' download target='_blank'>
                             
                             <BsFileEarmarkPdfFill className='text-3xl text-[#332932] hover:text-[#4AC8A3] duration-300 hover:scale-110 h-5'/>
                         </Link>
-                    </motion.div>
+                        </motion.div>
+
+                    </div>
                 </div>
 
                 <motion.div
