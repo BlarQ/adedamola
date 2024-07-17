@@ -14,30 +14,41 @@ export default function HomePage() {
 
                 <div className='-mt-7 sm:mt-0 backdrop-blur-[.07rem] sm:backdrop-blur-none'>
                     <motion.h1
-                     initial={{ x: "-100%" }}
-                     animate={{ x: 0 }}
+                     initial={{ x: "30%", opacity: 0 }}
                      transition={{ duration: 1.5 }}
+                     whileInView={{ x: 0, opacity: 1 }}
                      viewport={{ once: false, amount: 0.5 }}
                      className='text-6xl font-bold text-[#332932] pb-7'>Adedamola<br />Ogunlala<span className='text-[#4AC8A3]'>.</span>
                     </motion.h1>
 
-                    <hr className='border-4 w-28 border-[#4AC8A3]' />   
-
-                    <motion.div 
-                    initial={{ x: "-100%" }}
-                    animate={{ x: 0 }}
+                    <motion.hr 
+                    initial={{ x: "250%", opacity: 0 }}
+                    whileInView={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1.5 }}
                     viewport={{ once: false, amount: 0.5 }}
+                    className='border-4 w-28 border-[#4AC8A3]' /> 
+
+                     
+
+                    <motion.div 
+                    initial={{x: 0, opacity: 0}}
+                    whileInView={{ x: 0, opacity: 1 }}
+                    transition={{ duration: 1.5}}
+                    viewport={{ once: false, amount: 0.5}}
                     className='py-10 flex justify-start items-center gap-4'>
+
                         <Link href='https://shorturl.at/4Zmcz' target='_blank'>
                             <IoLogoLinkedin className='text-3xl text-[#332932] hover:text-[#4AC8A3] duration-300 hover:scale-110' />
                         </Link>
+
                         <Link href='https://shorturl.at/QaLAT' target='_blank'>
                             <IoLogoGithub className='text-3xl text-[#332932] hover:text-[#4AC8A3] duration-300 hover:scale-110' />
                         </Link>
+
                         <Link href='mailto:collinsogunlala@gmail.com' target='_blank'>
                             <IoMail className='text-3xl text-[#332932] hover:text-[#4AC8A3] duration-300 hover:scale-110' />
                         </Link>
+
                         <Link href='/Adedamola.pdf' type='application/pdf' download target='_blank'>
                             
                             <BsFileEarmarkPdfFill className='text-3xl text-[#332932] hover:text-[#4AC8A3] duration-300 hover:scale-110 h-5'/>
@@ -46,9 +57,9 @@ export default function HomePage() {
                 </div>
 
                 <motion.div
-                 initial={{ x: "-100%" }}
-                 animate={{ x: 0 }}
-                 transition={{ duration: 1.0 }}
+                 initial={{ x: "-30%", opacity: 0 }}
+                 whileInView={{ x: 0, opacity: 1 }}
+                 transition={{ duration: 2 }}
                  viewport={{ once: false, amount: 0.5 }}
                  className='sm:absolute mt-[-20%] sm:mt-0 sm:-top-[100%] sm:-right-[30%] w-fit sm:w-max -z-[1]'>
                     <Image src='/myimage.svg' alt='Adedamola Ogunlala' title='Adedamola Ogunlala' width={500} height={500} />
@@ -57,15 +68,20 @@ export default function HomePage() {
             <div className='sm:w-1/2'>
 
                 <motion.div 
-                initial={{ x: "100%" }}
-                animate={{ x: 0 }}
+                initial={{ x: "10%", opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1.0 }}
                 viewport={{ once: false, amount: 0.5 }}
                 className='sm:pl-[25%] text-[#332932]'>
                     <p className='text-2xl font-semibold border-[#332932] border-b-2 w-fit'>Introduction</p>
-                    <h2 className='text-2xl py-4 font-semibold'>
+                    <motion.h2
+                    initial={{ x: "0%", opacity: 0 }}
+                    whileInView={{ x: 0, opacity: 1 }}
+                    transition={{ duration: 1.5 }}
+                    viewport={{ once: false, amount: 0.5 }}
+                    className='text-2xl py-4 font-semibold'>
                         FrontEnd Developer
-                    </h2>
+                    </motion.h2>
                     <p className='text-sm text-[#332932] sm:w-[90%] pb-4'>
                         I am a frontend engineer from Lagos, Nigeria, who has a keen interest in building innovative solutions for various industries specializing in React.js, Next.js, and Tailwind CSS. My key project, TrendLuxe Ecommerce, demonstrates my ability to create engaging user interfaces using React hooks and Context API. I am committed to continuous learning and staying updated with web development trends
                     </p>

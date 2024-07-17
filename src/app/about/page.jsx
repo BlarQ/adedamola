@@ -19,7 +19,7 @@ export default function About() {
 
           <p className='py-4'>Thanks, <br />Adedamola.</p>
         </div>
-        <div className='sm:w-1/2'>
+        <div className='sm:w-1/2 flex items-center justify-center'>
           <p>holla!</p>
         </div>
 
