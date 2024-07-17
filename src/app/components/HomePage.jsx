@@ -107,8 +107,8 @@ export default function HomePage() {
                     className='text-2xl py-4 font-semibold'>
                         FrontEnd Developer
                     </motion.h2>
-                    <p className='text-sm text-[#332932] sm:w-[90%] pb-4'>
-                        I am a frontend engineer from Lagos, Nigeria, who has a keen interest in building innovative solutions for various industries specializing in React.js, Next.js, and Tailwind CSS. My key project, TrendLuxe Ecommerce, demonstrates my ability to create engaging user interfaces using React hooks and Context API. I am committed to continuous learning and staying updated with web development trends
+                    <p className='text-sm text-[#332932] text-justify sm:w-[90%] pb-4'>
+                        I&apos;m a FrontEnd Developer from Lagos, Nigeria, specializing in React.js, Next.js, and Tailwind CSS. My key project, TrendLuxe Ecommerce, showcases my ability to create user-friendly interfaces using React hooks and Context API. With a solid foundation in HTML, CSS, TailwindCSS, JavaScript, and React.js, I&apos;m eager to apply my skills to real-world projects and continue learning new technologies. I&apos;m committed to writing clean, efficient code and staying updated with web development trends. Excited to collaborate with experienced developers and contribute to innovative projects.
                     </p>
 
                     <Link href='/' className='text-[#332932] border-b-2 border-[#4AC8A3] flex justify-center items-center w-fit gap-1 hover:gap-2 duration-300'>
