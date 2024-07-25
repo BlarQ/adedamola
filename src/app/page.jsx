@@ -3,6 +3,7 @@ import HomePage from "./components/HomePage";
 import About from "./about/page";
 import Skill from "./skill/page";
 import Project from "./project/page";
+import Contact from "./contact/page";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <About />
       <Skill />
       <Project />
+      <Contact />
     </main>
   );
 }

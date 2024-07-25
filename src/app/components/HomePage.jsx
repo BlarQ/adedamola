@@ -111,9 +111,9 @@ export default function HomePage() {
                         I&apos;m a FrontEnd Developer from Lagos, Nigeria, specializing in React.js, Next.js, and Tailwind CSS. My key project, TrendLuxe Ecommerce, showcases my ability to create user-friendly interfaces using React hooks and Context API. With a solid foundation in HTML, CSS, TailwindCSS, JavaScript, and React.js, I&apos;m eager to apply my skills to real-world projects and continue learning new technologies. I&apos;m committed to writing clean, efficient code and staying updated with web development trends. Excited to collaborate with experienced developers and contribute to innovative projects.
                     </p>
 
-                    <Link href='/' className='text-[#332932] border-b-2 border-[#4AC8A3] flex justify-center items-center w-fit gap-1 hover:gap-2 duration-300'>
+                    {/* <Link href='/' className='text-[#332932] border-b-2 border-[#4AC8A3] flex justify-center items-center w-fit gap-1 hover:gap-2 duration-300'>
                         Read more...
-                    </Link>
+                    </Link> */}
                 </motion.div>
             </div>
         </div>
