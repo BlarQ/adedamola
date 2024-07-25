@@ -73,7 +73,7 @@ export default function Contact() {
     const isFormValid = Object.values(formData).every((value) => value.trim() !== '') && isEmailValid;
 
     return (
-        <div className='py-20 sm:py-10 px-5 sm:px-28 h-[92dvh]' id='contact'>
+        <div className='py-20 sm:py-24 px-5 sm:px-28 h-[92dvh]' id='contact'>
             <div className='flex flex-col items-start'>
                 <h1 className='text-xl sm:text-3xl font-bold'>Contact Me</h1>
                 <hr className='border-4 w-14 sm:w-20 border-[#4AC8A3] right-0' />
@@ -98,7 +98,7 @@ export default function Contact() {
                             sx={{
                                 '& .MuiOutlinedInput-root': {
                                     '& fieldset': {
-                                        borderColor: 'gray',
+                                        borderColor: '#332932',
                                     },
                                     '&:hover fieldset': {
                                         borderColor: '#4AC8A3',
@@ -108,7 +108,7 @@ export default function Contact() {
                                     },
                                 },
                                 '& .MuiInputLabel-root': {
-                                    color: 'gray',
+                                    color: '#332932',
                                 },
                                 '& .MuiInputLabel-root.Mui-focused': {
                                     color: '#4AC8A3',
@@ -130,7 +130,7 @@ export default function Contact() {
                             sx={{
                                 '& .MuiOutlinedInput-root': {
                                     '& fieldset': {
-                                        borderColor: 'gray',
+                                        borderColor: '#332932',
                                     },
                                     '&:hover fieldset': {
                                         borderColor: '#4AC8A3',
@@ -140,7 +140,7 @@ export default function Contact() {
                                     },
                                 },
                                 '& .MuiInputLabel-root': {
-                                    color: 'gray',
+                                    color: '#332932',
                                 },
                                 '& .MuiInputLabel-root.Mui-focused': {
                                     color: '#4AC8A3',
@@ -160,7 +160,7 @@ export default function Contact() {
                             sx={{
                                 '& .MuiOutlinedInput-root': {
                                     '& fieldset': {
-                                        borderColor: 'gray',
+                                        borderColor: '#332932',
                                     },
                                     '&:hover fieldset': {
                                         borderColor: '#4AC8A3',
@@ -170,7 +170,7 @@ export default function Contact() {
                                     },
                                 },
                                 '& .MuiInputLabel-root': {
-                                    color: 'gray',
+                                    color: '#332932',
                                 },
                                 '& .MuiInputLabel-root.Mui-focused': {
                                     color: '#4AC8A3',
