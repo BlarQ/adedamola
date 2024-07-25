@@ -41,7 +41,7 @@ export default function Skill() {
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
                         viewport={{ root: scrollRef.current }}
-                        className="min-w-[200px] flex flex-col items-center justify-center gap-2 border-[1px] rounded-md shadow-sm hover:shadow-md hover:animate-pulse duration-300 h-[40vh]"
+                        className="min-w-[240px] flex flex-col items-center justify-center gap-2 border-[1px] rounded-md shadow-sm hover:shadow-md duration-300 h-[40vh]"
                     >
                         <div className="flex flex-col items-center justify-center gap-2 px-8 py-4">
                             <Image src={skill.logo} alt={skill.name} width={100} height={100} />
