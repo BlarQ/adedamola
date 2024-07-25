@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 import { IoLogoGithub, IoLogoLinkedin, IoMail } from 'react-icons/io5'
 import { motion } from 'framer-motion'
-import { BsFileEarmarkPdf, BsFileEarmarkPdfFill } from "react-icons/bs";
+import { BsFileEarmarkPdfFill } from "react-icons/bs";
 
 
 export default function HomePage() {
@@ -20,7 +20,7 @@ export default function HomePage() {
                      viewport={{ once: false, amount: 0.5 }}
                      className='text-6xl font-bold text-[#332932] pb-7'>Adedamola<br />Ogunlala<span className='text-[#4AC8A3]'>.</span>
                     </motion.h1>
-
+                        
                     <motion.hr 
                     initial={{ x: "250%", opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
