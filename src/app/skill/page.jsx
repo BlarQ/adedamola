@@ -8,11 +8,11 @@ export default function Skill() {
     const scrollRef = useRef(null)
 
     return (
-        <div className='min-h-[100vh] px-7 sm:px-28 py-18 sm:py-7 overflow-x-hidden' id='skill'>
-            <div className='flex flex-col items-start'>
+        <div className='sm:min-h-[100vh] px-5 sm:px-28 py-0 sm:py-7 overflow-x-hidden' id='skill'>
+            <div className='flex flex-col items-start w-fit'>
 
                 <h1 className='text-xl sm:text-3xl font-bold'>My Skill</h1>
-                <hr className='border-4 w-14 sm:w-[10%] border-[#4AC8A3] right-0' />
+                <hr className='border-4 w-[70%] sm:w-[70%] border-[#4AC8A3] left-0' />
             </div>
 
             <div className='hidden sm:grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 py-5'>
