@@ -8,7 +8,7 @@ export default function Skill() {
     const scrollRef = useRef(null)
 
     return (
-        <div className='sm:min-h-[100vh] px-5 sm:px-28 py-0 sm:py-7 overflow-x-hidden' id='skill'>
+        <div className='sm:min-h-[100vh] px-5 sm:px-28 py-20 sm:py-24 overflow-x-hidden' id='skill'>
             <div className='flex flex-col items-start w-fit'>
 
                 <h1 className='text-xl sm:text-3xl font-bold'>My Skill</h1>

@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 
 export default function About() {
   return (
-    <div className='min-h-[100vh] px-5 sm:px-28 py-10 sm:py-20 overflow-x-hidden' id='about'>
+    <div className='min-h-[100vh] px-5 sm:px-28 py-20 sm:py-24 overflow-x-hidden' id='about'>
       <div className='flex flex-col items-end'>
 
         <h1 className='text-xl sm:text-3xl font-bold'>About Me</h1>

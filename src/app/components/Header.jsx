@@ -42,13 +42,13 @@ export default function Header() {
                     <Link href='#about' className='text-base font-bold text-[#332932] hover:text-[#4AC8A3] duration-300 focus:text-[#4AC8A3]'>About</Link>
                 </li>
                 <li>
-                    <Link href='/Skills' className='text-base font-bold text-[#332932] hover:text-[#4AC8A3] duration-300 focus:text-[#4AC8A3]'>Skills</Link>
+                    <Link href='#skill' className='text-base font-bold text-[#332932] hover:text-[#4AC8A3] duration-300 focus:text-[#4AC8A3]'>Skills</Link>
                 </li>
                 <li>
-                    <Link href='/Projects' className='text-base font-bold text-[#332932] hover:text-[#4AC8A3] duration-300 focus:text-[#4AC8A3]'>Projects</Link>
+                    <Link href='#project' className='text-base font-bold text-[#332932] hover:text-[#4AC8A3] duration-300 focus:text-[#4AC8A3]'>Projects</Link>
                 </li>
                 <li>
-                    <Link href='/contact' className='text-base font-bold text-[#332932] hover:text-[#4AC8A3] duration-300 focus:text-[#4AC8A3]'>Contact</Link>
+                    <Link href='#contact' className='text-base font-bold text-[#332932] hover:text-[#4AC8A3] duration-300 focus:text-[#4AC8A3]'>Contact</Link>
                 </li>
             </ul>
         </motion.div>

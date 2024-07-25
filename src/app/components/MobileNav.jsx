@@ -15,13 +15,13 @@ export default function MobileNav() {
                     <Link href='#about' className='text-base font-bold text-[#332932]'>About</Link>
                 </li>
                 <li>
-                    <Link href='/Skills' className='text-base font-bold text-[#332932]'>Skills</Link>
+                    <Link href='#skill' className='text-base font-bold text-[#332932]'>Skills</Link>
                 </li>
                 <li>
-                    <Link href='/Projects' className='text-base font-bold text-[#332932]'>Projects</Link>
+                    <Link href='#project' className='text-base font-bold text-[#332932]'>Projects</Link>
                 </li>
                 <li>
-                    <Link href='/contact' className='text-base font-bold text-[#332932]'>Contact</Link>
+                    <Link href='#contact' className='text-base font-bold text-[#332932]'>Contact</Link>
                 </li>
             </ul>
         </div>
