@@ -17,7 +17,7 @@ export default function About() {
 
           <p>Hi there! I’m Adedamola Ogunlala, a Certified Front-End developer from Lagos, Nigeria. I’ve dedicated myself to creating impactful digital experiences.</p>
 
-          <div>
+          <div className='text-justify'>
             <h2 className='font-bold border-b-2 border-[#4AC8A3] w-fit text-2xl'>What I Do</h2>
 
             <p>🌟 Frontend Craftsmanship: I bring creative designs to life with HTML, CSS, and JavaScript, crafting everything from sleek SPAs to complex web solutions.</p>
