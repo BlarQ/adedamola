@@ -26,6 +26,8 @@ export default function Project() {
                             <div className=' flex flex-col items-center justify-center gap-2 px-8 py-4'>
                                 <Image src={project.image} alt={project.name} width={300} height={300} className='rounded-md' />
                                 <h1 className='text-[#4ac8a3] text-xl italic'>{project.name}</h1>
+
+                                <p className='text-center text-[#332932]'>{project.stack}</p>
                             </div>
                             <div className='py-8 grid grid-cols-2 gap-4'>
                                 <Link 

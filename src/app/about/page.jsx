@@ -18,7 +18,7 @@ export default function About() {
           <p>Hi there! I’m Adedamola Ogunlala, a Certified Front-End developer from Lagos, Nigeria. I’ve dedicated myself to creating impactful digital experiences.</p>
 
           <div className='text-justify'>
-            <h2 className='font-bold border-b-2 border-[#4AC8A3] w-fit text-2xl'>What I Do</h2>
+            <h2 className='font-bold border-b-2 border-[#4AC8A3] w-fit text-xl'>What I Do</h2>
 
             <p>🌟 Frontend Craftsmanship: I bring creative designs to life with HTML, CSS, and JavaScript, crafting everything from sleek SPAs to complex web solutions.</p>
 
@@ -26,7 +26,7 @@ export default function About() {
 
             <p>⚡ Performance Optimizer: I prioritize speed and efficiency, optimizing projects for fast load times and smooth user interactions.</p>
 
-            <p>My Toolbox</p>
+            <p className='font-bold border-b-2 border-[#4AC8A3] w-fit text-xl pt-1'>My Toolbox</p>
 
             <p>🛠️ Languages: HTML, CSS, JavaScript (Learning TypeScript😉)</p>
 
@@ -45,7 +45,7 @@ export default function About() {
             transition={{ duration: 1.5 }}
             viewport={{ once: false, amount: 0.5 }}
             className='min-h-full'>
-            <Image src='/about.svg' className='rounded-br-full rounded-tl-full rounded-bl-full w-full shadow-xl' alt='Hands on Deck' title='hands on deck' width={500} height={500} />
+            <Image src='/about.svg' className='rounded-br-full rounded-tl-full rounded-bl-full w-full shadow-xl' alt='Hands on Deck' title='Hand of a man on a laptop' width={500} height={500} />
 
           </motion.div>
         </div>
