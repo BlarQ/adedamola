@@ -13,12 +13,12 @@ export default function About() {
       </div>
 
       <div className='flex flex-col-reverse sm:flex-row sm:items-center justify-center w-full pt-10 sm:pt-0 gap-10'>
-        <div className='sm:w-1/2 font-semibold space-y-2'>
+        <div className='sm:w-1/2 space-y-2'>
 
           <p>Hi there! I’m Adedamola Ogunlala, a Certified Front-End developer from Lagos, Nigeria. I’ve dedicated myself to creating impactful digital experiences.</p>
 
           <div className='text-justify'>
-            <h2 className='font-bold border-b-2 border-[#4AC8A3] w-fit text-xl'>What I Do</h2>
+            <h2 className='font-bold border-b-2 border-[#4AC8A3] w-fit text-lg sm:text-xl'>What I Do</h2>
 
             <p>🌟 Frontend Craftsmanship: I bring creative designs to life with HTML, CSS, and JavaScript, crafting everything from sleek SPAs to complex web solutions.</p>
 
@@ -26,7 +26,7 @@ export default function About() {
 
             <p>⚡ Performance Optimizer: I prioritize speed and efficiency, optimizing projects for fast load times and smooth user interactions.</p>
 
-            <p className='font-bold border-b-2 border-[#4AC8A3] w-fit text-xl pt-1'>My Toolbox</p>
+            <p className='font-bold border-b-2 border-[#4AC8A3] w-fit text-lg sm:text-xl pt-1'>My Toolbox</p>
 
             <p>🛠️ Languages: HTML, CSS, JavaScript (Learning TypeScript😉)</p>
 
