@@ -52,12 +52,27 @@ export default function Header() {
             </motion.div>
 
             {/* Mobile Hamburger Menu */}
-            <div className='flex lg:hidden'>
-                <IoMenu onClick={toggleMenu} className={`${isOpen ? 'hidden' : 'h-8 w-8 text-[#4ac8a3] cursor-pointer'}`} />
-                <IoClose onClick={toggleMenu} className={`${!isOpen ? 'hidden' : 'h-8 w-8 text-[#4ac8a3] cursor-pointer'}`} />
+            <div className='flex relative lg:hidden'>
+            <motion.div
+            className='absolute'
+                    initial={{ opacity: 1, rotate: 0 }}
+                    animate={{ opacity: isOpen ? 0 : 1, rotate: isOpen ? 45 : 0 }}
+                    transition={{ duration: 0.3 }}
+                >
+                    <IoMenu onClick={toggleMenu} className='h-8 w-8 text-[#4ac8a3] cursor-pointer' />
+                </motion.div>
+                <motion.div
+                    initial={{ opacity: 0, rotate: 45 }}
+                    animate={{ opacity: isOpen ? 1 : 0, rotate: isOpen ? 0 : 45 }}
+                    transition={{ duration: 0.3 }}
+                >
+                    <IoClose onClick={toggleMenu} className='h-8 w-8 text-[#4ac8a3] cursor-pointer' />
+                </motion.div>
             </div>
 
-            {isOpen && <MobileNav setIsOpen={setIsOpen} />}
+            {isOpen && 
+                <MobileNav setIsOpen={setIsOpen} />
+            }
         </div>
     )
 }
