@@ -26,7 +26,7 @@ export default function Skill() {
                             key={index} className='flex flex-col items-center justify-center gap-2 border-[1px] rounded-md shadow-sm hover:shadow-md hover:animate-pulse duration-300'>
                             <div className=' flex flex-col items-center justify-center gap-2 px-8 py-4'>
                                 <Image src={skill.logo} alt={skill.name} width={100} height={100} className='' />
-                                <span className='text-[#4ac8a3] text-xl italic'>{skill.level}</span>
+                                <span className='text-[#4ac8a3] text-center capitalize text-lg italic'>{skill.level}</span>
                             </div>
                             <span className='font-semibold py-2'>{skill.name}</span>
                         </motion.div>

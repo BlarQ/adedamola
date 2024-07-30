@@ -2,66 +2,66 @@ export const frontendSkills = [
   {
     name: "HTML",
     logo: "/html.svg",
-    level: "96%"
+    level: "Web Structure Language"
   },
   {
     name: "CSS",
     logo: "/css.svg",
-    level: "92%"
+    level: "Styling web pages"
   },
   {
     name: "JavaScript",
     logo: "/javascript.svg",
-    level: "87%"
+    level: "Dynamic web behavior"
   },
   {
     name: "React.js",
     logo: "/react.svg",
-    level: "80%"
+    level: "UI component library"
   },
   {
     name: "Next.js",
     logo: "/next-js.svg",
-    level: "80%"
+    level: "React framework"
   },
   {
     name: "Tailwind CSS",
     logo: "/tailwindcss.svg",
-    level: "91%"
+    level: "Utility-first CSS"
   },
   {
     name: "Git",
     logo: "/git.svg",
-    level: "83%"
+    level: "Version control system"
   },
   {
     name: "GitHub",
     logo: "/github.svg",
-    level: "92%"
+    level: "Code hosting platform"
   },
   {
     name: "Material-UI",
     logo: "/material-ui.svg",
-    level: "90%"
+    level: "React UI components"
   },
   {
     name: "Framer Motion",
     logo: "/framer-motion.svg",
-    level: "82%"
+    level: "Animation library"
   },
   {
     name: "Context API",
     logo: "/context.svg",
-    level: "78%"
+    level: "State management tool"
   },
   {
     name: "Vercel",
     logo: "/vercel.svg",
-    level: "97%"
+    level: "Deployment platform"
   },
   {
     name: "Git Bash",
     logo: "/git-bash.svg",
-    level: "83%"
+    level: "Command-line interface"
   }
 ];
