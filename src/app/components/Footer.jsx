@@ -5,7 +5,7 @@ import { IoLogoGithub, IoLogoLinkedin, IoMail } from 'react-icons/io5'
 
 export default function Footer() {
     return (
-        <div className='sm:px-28 py-10 mt-10 sm:mt-0 flex sm:flex-row flex-col justify-between items-center bg-[#332932] text-white'>
+        <div className='sm:px-28 py-10 mt-10 sm:mt-0 flex sm:flex-row flex-col justify-between items-center bg-[#332932] text-white md:mt-80 lg:mt-10'>
             <div className='space-y-8'>
                 {/* socials */}
                 <div className='flex sm:justify-start justify-center items-center gap-4'>
