@@ -28,7 +28,7 @@ export default function About() {
 
             <p className='font-bold border-b-2 border-[#4AC8A3] w-fit text-lg sm:text-xl pt-1'>My Toolbox</p>
 
-            <p>🛠️ Languages: HTML, CSS, JavaScript (Learning TypeScript😉)</p>
+            <p>🛠️ Languages: HTML, CSS, JavaScript.</p>
 
             <p>⚙️ Frameworks & Libraries: Bootstrap, TailwindCSS, React.js, Next.js (because server-side rendering is awesome!)</p>
 
