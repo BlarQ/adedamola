@@ -53,7 +53,7 @@ export default function Contact() {
                 title: 'Error!',
                 text: 'Please try again. Thanks!',
                 icon: 'error',
-                confirmButtonText: 'Ok'
+                confirmButtonText: 'Try Again'
             });
         }
     };
