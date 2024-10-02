@@ -4,7 +4,14 @@ export const projects = [
       image: "/trendluxe.jpg",
       liveLink: "https://thetrendluxe.vercel.app/",
       githubLink: "https://github.com/BlarQ/capstone",
-      stack: "React, NextJs, Tailwind, Framer, Material UI, React-Icon, ContextAPI"
+      stack: "ReactJs, NextJs, Tailwind, Framer, Material UI, React-Icon, ContextAPI"
+    },
+    {
+      name: "Nassy & Franc",
+      image: "/nf.jpg",
+      liveLink: "https://francgothiscoderite.vercel.app/",
+      githubLink: "https://github.com/BlarQ/francgothiscoderite",
+      stack: "ReactJs, NextJs, Tailwind, Framer, Material UI, React-Icon"
     },
     {
       name: "Task Manager",
@@ -27,11 +34,6 @@ export const projects = [
       githubLink: "https://github.com/BlarQ/SocialProjectUnivel",
       stack: "HTML, Tailwind"
     },
-    // {
-    //   name: "Portfolio Website",
-    //   image: "https://example.com/weather-app-image.jpg",
-    //   liveLink: "https://weatherapp.example.com",
-    //   githubLink: "https://github.com/yourusername/weather-app"
-    // }
+    
   ];
   
