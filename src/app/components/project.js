@@ -14,6 +14,13 @@ export const projects = [
       stack: "ReactJs, NextJs, Tailwind, Framer, Material UI, React-Icon"
     },
     {
+      name: "GitHub Profile Viewer",
+      image: "/githubviewer.jpg",
+      liveLink: "https://dev-checker.vercel.app/",
+      githubLink: "https://github.com/BlarQ/GitHub-Profile-Viewer",
+      stack: "React, NextJs, Tailwind, React-Icons, Axios"
+    },
+    {
       name: "Task Manager",
       image: "/todo.jpg",
       liveLink: "https://todo-app-zeta-blush.vercel.app/",
