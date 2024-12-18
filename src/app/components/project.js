@@ -7,6 +7,13 @@ export const projects = [
       stack: "ReactJs, NextJs, Tailwind, Framer, Material UI, React-Icon, ContextAPI"
     },
     {
+      name: "Arsema",
+      image: "/arsema.jpg",
+      liveLink: "https://arsema.vercel.app/",
+      githubLink: "https://github.com/BlarQ/Arsema",
+      stack: "ReactJs, NextJs, Tailwind, PayPal, Material UI, React-Icon, ContextAPI, API Integration"
+    },
+    {
       name: "Nassy & Franc",
       image: "/nf.jpg",
       liveLink: "https://francgothiscoderite.vercel.app/",
@@ -18,7 +25,7 @@ export const projects = [
       image: "/githubviewer.jpg",
       liveLink: "https://dev-checker.vercel.app/",
       githubLink: "https://github.com/BlarQ/GitHub-Profile-Viewer",
-      stack: "React, NextJs, Tailwind, React-Icons, Axios"
+      stack: "React, NextJs, Tailwind, React-Icons, Axios, API interaction"
     },
     {
       name: "Task Manager",
