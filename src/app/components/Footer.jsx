@@ -3,6 +3,8 @@ import React from 'react'
 import { BsFileEarmarkPdfFill } from 'react-icons/bs'
 import { IoLogoGithub, IoLogoLinkedin, IoMail } from 'react-icons/io5'
 
+const currentYear = new Date().getFullYear();
+
 export default function Footer() {
     return (
         <div className='sm:px-28 py-10 mt-10 sm:mt-0 flex sm:flex-row flex-col justify-between items-center bg-[#332932] text-white md:mt-80 lg:mt-10'>
@@ -28,7 +30,7 @@ export default function Footer() {
                 <h1 className='text-2xl'>Adedamola Ogunlala<span className='text-[#4AC8A3] text-4xl'>.</span></h1>
             </div>
             <div>
-                <p>&copy; {new Date().getFullYear()} Adedamola. All rights reserved.</p>
+                <p>&copy; {currentYear} Adedamola. All rights reserved.</p>
             </div>
         </div>
     )
