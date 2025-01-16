@@ -7,11 +7,25 @@ export const projects = [
       stack: "ReactJs, NextJs, Tailwind, Framer, Material UI, React-Icon, ContextAPI"
     },
     {
+      name: "Forcythe Website",
+      image: "/forcythe.jpg",
+      liveLink: "https://forcythe-adedamola.vercel.app/",
+      githubLink: "https://github.com/BlarQ/Forcythe",
+      stack: "ReactJs, NextJs, Tailwind, TypeScript, React-Icon"
+    },
+    {
       name: "Arsema",
       image: "/arsema.jpg",
       liveLink: "https://arsema.vercel.app/",
       githubLink: "https://github.com/BlarQ/Arsema",
       stack: "ReactJs, NextJs, Tailwind, PayPal, Material UI, React-Icon, ContextAPI, API Integration"
+    },
+    {
+      name: "InstaShop Mobile View Test",
+      image: "/instashop.jpg",
+      liveLink: "https://instashop-pi.vercel.app/",
+      githubLink: "https://github.com/BlarQ/InstaShop",
+      stack: "ReactJs, NextJs, Tailwind, TypeScript"
     },
     {
       name: "Nassy & Franc",
