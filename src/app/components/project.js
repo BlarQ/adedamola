@@ -39,7 +39,7 @@ export const projects = [
       image: "/githubviewer.jpg",
       liveLink: "https://dev-checker.vercel.app/",
       githubLink: "https://github.com/BlarQ/GitHub-Profile-Viewer",
-      stack: "React, NextJs, Tailwind, React-Icons, Axios, API interaction"
+      stack: "React, NextJs, Tailwind, TypeScript, React-Icons, Axios, API interaction"
     },
     {
       name: "Task Manager",
