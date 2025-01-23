@@ -5,6 +5,7 @@ import Skill from "./skill/page";
 import Project from "./project/page";
 import Contact from "./contact/page";
 import Footer from "./components/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Project />
       <Contact />
       <Footer />
+      <SpeedInsights />
     </main>
   );
 }
